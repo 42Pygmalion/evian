@@ -1,0 +1,33 @@
+{
+  "name": "post",
+  "version": "1.0.0",
+  "description": "postevianform",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/42Pygmalion/evian.git"
+  },
+  "keywords": [
+    "evian"
+  ],
+  "author": "lp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/42Pygmalion/evian/issues"
+  },
+  "homepage": "https://github.com/42Pygmalion/evian#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  },
+ "scripts": {
+    "dev": "nodemon server.js"
+  }
+}
